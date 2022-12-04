@@ -1,0 +1,1615 @@
+
+.navigation {
+    background-color: #333;
+    max-width: 100%;
+    overflow-x: hidden;
+    transition: 0.4s;
+  }
+
+.navigation a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navigation a.active {
+    background-color: #515654;
+    color: white;
+}
+
+
+img {
+    display: inline-block;
+  }
+
+  
+  .heading{
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.6);
+  }
+  
+  .background-video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #Food_catalogue{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    background-image: url('Singapore backgd.jpg');
+    position: relative;
+    padding-top: 10px;
+    padding-left: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    }
+  
+
+body.catalogue{
+  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.chickenrice_image{ 
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+  }
+
+.chickenrice_text{
+  position: absolute;
+  margin-left: 80px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+}
+
+
+
+.button {
+  padding: 15px 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3e3e3e;
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #606160}
+
+.button:active {
+  background-color: #343434;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.chillicrab_image{ 
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+  }
+
+.chillicrab_text{
+  position: absolute;
+  margin-left: 80px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+  
+}
+
+.bak_gu_teh_image{
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+  
+}
+
+.bak_gu_teh_text{
+  position: absolute;
+  margin-left: 100px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+}
+
+.char_kway_teow_image{
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+}
+
+.char_kway_teow_text{
+  position: absolute;
+  margin-left: 100px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+
+}
+
+.bak_chor_mee_image{
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+}
+
+.bak_chor_mee_text{
+  position: absolute;
+  margin-left: 100px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+
+}
+
+.mala_image{
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+}
+
+.mala_text{
+  position: absolute;
+  margin-left: 100px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+
+}
+
+.hokkien_mee_image{
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+}
+
+.hokkien_mee_text{
+  position: absolute;
+  margin-left: 100px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+
+}
+
+.ban_mian_image{
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+}
+
+.ban_mian_text{
+  position: absolute;
+  margin-left: 100px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+
+}
+
+
+.nasi_lemak_image{
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+}
+
+.nasi_lemak_text{
+  position: absolute;
+  margin-left: 100px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+
+}
+
+.Ice-cream_sandwich_image{
+  position: relative;
+  padding-top: 100px; 
+  padding-left: 30px;
+}
+
+.Ice-cream_sandwich_text{
+  position: absolute;
+  margin-left: 100px;
+  top: 33%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  padding-left:470px;
+  padding-top: -60px
+
+}
+
+
+
+
+#Food_news{
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+  background-image: url('Singapore backgd.jpg');
+  position: relative;
+  padding-top: 10px;
+  padding-left: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  }
+
+
+.Food_news{
+  background-color: #414141;
+}
+
+.column {
+  float: left;
+  width: 32.6%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Equate_Coffee_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+ 
+  
+}
+.Equate_Coffee_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.Equate_Coffee_heading:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.Equate_Coffee_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Equate_Coffee_text{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.Equate_Coffee_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+
+.Gloria-jeans_coffees_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+}
+
+.Gloria-jeans_coffees_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.Gloria-jeans_coffees_heading:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.Gloria-jeans_coffees_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Gloria-jeans_coffees_text{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.Gloria-jeans_coffees_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+  
+
+.Surrey_Hills_Grocer_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+}
+
+.Surrey_Hills_Grocer_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.Surrey_Hills_Grocer_heading:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.Surrey_Hills_Grocer_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Surrey_Hills_Grocer_text{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.Surrey_Hills_Grocer_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+
+
+.Roast_paradise_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+}
+
+.Roast_paradise_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.Roast_paradise_heading:hover {
+  color: rgb(255, 247, 247);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.Roast_paradise_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Roast_paradise_text{
+  color:rgb(255, 254, 254);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.Roast_paradise_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+
+
+.seven_cafe_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+}
+
+.seven_cafe_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.seven_cafe_heading:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.seven_cafe_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.seven_cafe_text{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.seven_cafe_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+
+
+.Mr_ramen_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+}
+
+.Mr_ramen_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.Mr_ramen_heading:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.Mr_ramen_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Mr_ramen_text{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.Mr_ramen_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+
+.Oh_my_cow_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+}
+
+.Oh_my_cow_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.Oh_my_cow_heading:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.Oh_my_cow_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Oh_my_cow_text{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.Oh_my_cow_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+
+.Bangkok_jam_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+}
+
+.Bangkok_jam_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.Bangkok_jam_heading:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.Bangkok_jam_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Bangkok_jam_text{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.Bangkok_jam_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+
+
+.Ding_Gua_Gua_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+}
+
+.Ding_Gua_Gua_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.Ding_Gua_Gua_heading:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.Ding_Gua_Gua_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Ding_Gua_Gua_text{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.Ding_Gua_Gua_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+
+.Pang_hakka_noodle_heading:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin-left: 200px;
+}
+
+.Pang_hakka_noodle_heading:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.Pang_hakka_noodle_heading:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.Pang_hakka_noodle_heading:active {
+  color: rgb(76, 129, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.Pang_hakka_noodle_text{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.Pang_hakka_noodle_date{
+  color:rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+  font-size: 19px;
+}
+
+
+#food_reviews{
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  background-color: #a18a76;
+  }
+
+
+.food_reviews{
+  background-color: #d8bba1;
+}
+
+#Hawker_centres{
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  color:#333;
+  padding-left: 60px;
+  font-weight: bold;
+  background-color: #837162;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.Adam_road {
+  position: relative;
+  width: 50%;
+
+}
+.Adam_road_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Adam_road:hover .Adam_road_image {
+  opacity: 0.3;
+}
+
+.Adam_road:hover .middle {
+  opacity: 1;
+}
+
+
+.Adam_road_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+.Amoy_street {
+  position: relative;
+  width: 50%;
+  /*padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  left:750px;
+  bottom:300px*/
+}
+
+.Amoy_street_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Amoy_street:hover .Amoy_street_image {
+  opacity: 0.3;
+}
+
+.Amoy_street:hover .middle {
+  opacity: 1;
+}
+
+.Amoy_street_link {
+  background-color: #3e3e3e;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+.Newton {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  left:750px;
+  bottom:750px;
+  
+}
+
+.Newton_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-right:0px
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Newton:hover .Newton_image {
+  opacity: 0.3;
+}
+
+.Newton:hover .middle {
+  opacity: 1;
+}
+
+.Newton_link {
+  background-color: #3e3e3e;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+.Old_airport {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  left:750px;
+  bottom:750px
+}
+
+.Old_airport_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Old_airport:hover .Old_airport_image {
+  opacity: 0.3;
+}
+
+.Old_airport:hover .middle {
+  opacity: 1;
+}
+
+.Old_airport_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+#restaurants{
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  color:#333;
+  padding-left: 60px;
+  font-weight: bold;
+  background-color: #837162;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.Sonder {
+  position: relative;
+  width: 50%;
+
+}
+.Sonder_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Sonder:hover .Sonder_image {
+  opacity: 0.3;
+}
+
+.Sonder:hover .middle {
+  opacity: 1;
+}
+
+
+.Sonder_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+.Anju {
+  position: relative;
+  width: 50%;
+
+}
+.Anju_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Anju:hover .Anju_image {
+  opacity: 0.3;
+}
+
+.Anju:hover .middle {
+  opacity: 1;
+}
+
+
+.Anju_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+.osteria_mozza {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  left:750px;
+  bottom:950px;
+  
+}
+
+.osteria_mozza_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-right:0px
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.osteria_mozza:hover .osteria_mozza_image {
+  opacity: 0.3;
+}
+
+.osteria_mozza:hover .middle {
+  opacity: 1;
+}
+
+.osteria_mozza_link {
+  background-color: #3e3e3e;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.revolver {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  left:750px;
+  bottom:960px
+}
+
+.revolver_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.revolver:hover .revolver_image {
+  opacity: 0.3;
+}
+
+.revolver:hover .middle {
+  opacity: 1;
+}
+
+.revolver_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+#cafes{
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  color:#333;
+  padding-left: 60px;
+  font-weight: bold;
+  background-color: #837162;
+  padding-top: 20px;
+  padding-bottom: 20px
+
+}
+
+.cultivate_cafe {
+  position: relative;
+  width: 50%;
+
+}
+.cultivate_cafe_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cultivate_cafe:hover .cultivate_cafe_image {
+  opacity: 0.3;
+}
+
+.cultivate_cafe:hover .middle {
+  opacity: 1;
+}
+
+
+.cultivate_cafe_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.neptune {
+  position: relative;
+  width: 50%;
+
+}
+.neptune_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.neptune:hover .neptune_image {
+  opacity: 0.3;
+}
+
+.neptune:hover .middle {
+  opacity: 1;
+}
+
+
+.neptune_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.six_letter_brunch {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  left:750px;
+  bottom:850px;
+  
+}
+
+.six_letter_brunch_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-right:0px
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.six_letter_brunch:hover .six_letter_brunch_image {
+  opacity: 0.3;
+}
+
+.six_letter_brunch:hover .middle {
+  opacity: 1;
+}
+
+.six_letter_brunch_link {
+  background-color: #3e3e3e;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+.overeasy {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  left:750px;
+  bottom:960px
+}
+
+.overeasy_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overeasy:hover .revolver_image {
+  opacity: 0.3;
+}
+
+.overeasy:hover .middle {
+  opacity: 1;
+}
+
+.overeasy_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#Hawker_centres{
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  color:#333;
+  padding-left: 60px;
+  font-weight: bold;
+}
+
+.Adam_road {
+  position: relative;
+  width: 50%;
+
+}
+
+.Adam_road_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Adam_road:hover .Adam_road_image {
+  opacity: 0.3;
+}
+
+.Adam_road:hover .middle {
+  opacity: 1;
+}
+
+.Adam_road_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.Amoy_street {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  left:750px;
+  bottom:300px
+}
+
+.Amoy_street_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Amoy_street:hover .Amoy_street_image {
+  opacity: 0.3;
+}
+
+.Amoy_street:hover .middle {
+  opacity: 1;
+}
+
+.Amoy_street_link {
+  background-color: #3e3e3e;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.Newton {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  bottom:400px;
+}
+
+.Newton_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-right:0px
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Newton:hover .Newton_image {
+  opacity: 0.3;
+}
+
+.Newton:hover .middle {
+  opacity: 1;
+}
+
+.Newton_link {
+  background-color: #3e3e3e;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.Old_airport {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  left:750px;
+  bottom:950px
+}
+
+.Old_airport_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Old_airport:hover .Old_airport_image {
+  opacity: 0.3;
+}
+
+.Old_airport:hover .middle {
+  opacity: 1;
+}
+
+.Old_airport_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.Tiong_bahru {
+  position: relative;
+  width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  right:200px;
+  bottom:600px;
+  
+
+}
+
+.Tiong_bahru_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Tiong_bahru:hover .Tiong_bahru_image {
+  opacity: 0.3;
+}
+
+.Tiong_bahru:hover .middle {
+  opacity: 1;
+}
+
+.Tiong_bahru_link {
+  background-color: #3e3e3e;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/*#Restaurants{
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  color:#333;
+  padding-left: 60px;
+  bottom:600px;
+  font-weight: bold;
+}*/
